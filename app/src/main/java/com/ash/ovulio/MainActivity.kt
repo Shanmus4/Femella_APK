@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
 
         button1.setOnClickListener {
             // Handle button 1 click
-            showToast("Button 1 Clicked")
+            showToast("Button 1 Clickeda")
         }
 
         button2.setOnClickListener {
