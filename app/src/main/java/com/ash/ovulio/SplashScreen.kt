@@ -1,6 +1,8 @@
 package com.ash.ovulio
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -15,32 +17,15 @@ import com.ash.ovulio.ui.theme.OvulioTheme
 class SplashScreen : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
-            OvulioTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    Greeting("Android")
-                }
-            }
+        setContentView(R.layout.splash_screen)
+        val splashlogo = findViewById<ImageView>(R.id.splashlogo)
+        splashlogo.alpha = 0f
+        splashlogo.animate().setDuration(1500).alpha(1f).withEndAction{
+            val splashtransition = Intent(this, MainActivity::class.java)
+            startActivity(splashtransition)
+            overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
+            finish()
         }
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    OvulioTheme {
-        Greeting("Android")
-    }
-}
