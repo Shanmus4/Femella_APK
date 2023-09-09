@@ -2,4 +2,6 @@
 <resources>
 
     <style name="Theme.Ovulio" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="SplashScreenTheme" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>
