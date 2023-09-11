@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Ovulio" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Ovulio" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">@font/nunito_sans</item>
+    </style>
+
+    <style name="OnboardTheme" >
+        <item name="android:fontFamily">@font/nunito_sans</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@color/WhiteBG</item>
+        <item name="android:textColor">@color/BodyText</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="nextButtonTheme" parent="Widget.AppCompat.Button.Borderless" >
+        <item name="android:fontFamily">@font/nunito_sans</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:backgroundTint">@color/Primary</item>
+        <item name="android:textColor">@color/BodyText</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
 
     <style name="SplashScreenTheme" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:colorBackground">@color/SplashBG</item>
+        <item name="android:windowBackground">@color/SplashBG</item>
 
     </style>
 </resources>
