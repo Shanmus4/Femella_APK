@@ -1,9 +1,11 @@
-package com.ash.ovulio
+package com.ash.ovulio.splashscreen
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.activity.ComponentActivity
+import com.ash.ovulio.onboarding.Onboard1
+import com.ash.ovulio.R
 
 class SplashScreenActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

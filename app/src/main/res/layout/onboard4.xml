@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:theme="@style/OnboardTheme">
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Onboard4Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -30,18 +30,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/onboard4image" />
 
-    <include
-        android:id="@+id/OnlineOffline"
-        layout="@layout/next_button"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/Onboard4Body"
+        android:layout_width="196dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="140dp"
-        android:layout_marginEnd="139dp"
+        android:layout_marginTop="98dp"
+        android:text="For Ovulio to assist you on this journey, it needs thorough knowledge about your body. Rest assured, your data will only be shared with Ovulio."
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onboard4image" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="164dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
         android:layout_marginBottom="64dp"
+        android:background="@drawable/border_radius"
+        android:stateListAnimator="@null"
+        android:text="Let's Go"
+        android:theme="@style/nextButtonTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent">
+    </Button>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

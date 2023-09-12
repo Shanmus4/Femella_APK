@@ -5,5 +5,7 @@
     <color name="BodyText">#5E5959</color>
     <color name="HeadText">#2B1876</color>
     <color name="WhiteBG">#FFFFFF</color>
+    <color name="PrimaryDark">#CA868A</color>
+
 
 </resources>

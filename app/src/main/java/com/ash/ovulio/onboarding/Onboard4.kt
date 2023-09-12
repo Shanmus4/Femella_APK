@@ -1,20 +1,20 @@
-package com.ash.ovulio
+package com.ash.ovulio.onboarding
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
-import android.widget.Toast
 import androidx.activity.ComponentActivity
+import com.ash.ovulio.R
+import com.ash.ovulio.login.SignIn
 
-class Onboard3 : ComponentActivity() {
+class Onboard4 : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.onboard3)
+        setContentView(R.layout.onboard4)
         val buttonClick = findViewById<Button>(R.id.nextButton)
         buttonClick.setOnClickListener {
-            val intent = Intent(this, Onboard3::class.java)
+            val intent = Intent(this, SignIn::class.java)
             startActivity(intent)
         }
 
