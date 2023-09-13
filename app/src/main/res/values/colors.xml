@@ -6,6 +6,8 @@
     <color name="HeadText">#2B1876</color>
     <color name="WhiteBG">#FFFFFF</color>
     <color name="PrimaryDark">#CA868A</color>
+    <color name="PrimaryLight">#FFEDED</color>
+
 
 
 </resources>

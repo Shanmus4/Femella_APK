@@ -36,4 +36,13 @@
         <item name="android:textColor">@color/PrimaryDark</item>
         <item name="android:textSize">16sp</item>
     </style>
+
+    <style name="SignUpTheme" >
+        <item name="android:fontFamily">@font/nunito_sans</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@color/PrimaryLight</item>
+        <item name="android:textColor">@color/BodyText</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
 </resources>

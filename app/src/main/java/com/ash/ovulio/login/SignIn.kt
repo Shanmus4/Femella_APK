@@ -24,16 +24,23 @@ class SignIn : ComponentActivity() {
         var signInButton = findViewById<Button>(R.id.SignInButton)
         val errorMessage = findViewById<TextView>(R.id.ErrorMessage)
 
-        if (emailText.toString().trim().isEmpty() || passwordText.toString().trim().isEmpty()){
-            signInButton.text = "yo"
-        }
+//        if (emailText.text.toString().trim().isEmpty() || passwordText.text.trim().isEmpty()){
+//            signInButton.isEnabled = false
+//        }
+//
 
         signInButton.setOnClickListener{
-            if (emailText.toString() != "User" && passwordText.toString() != "pass"){
+            if (emailText.text.toString().equals("User", true) && passwordText.text.toString().equals("pass", ignoreCase = true)){
+                // show next page event
                 errorMessage.visibility = View.VISIBLE
+                errorMessage.text = "Correct!!"
             }
             else{
-                errorMessage.text = "Hey"
+                // show error message
+
+                errorMessage.visibility = View.VISIBLE
+                errorMessage.text = "Incorrect"
+
             }
         }
 

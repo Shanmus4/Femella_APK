@@ -10,14 +10,13 @@
 
     <ImageView
         android:id="@+id/SignInLogo"
-        android:layout_width="187dp"
-        android:layout_height="129dp"
+        android:layout_width="260dp"
+        android:layout_height="140dp"
         android:layout_marginTop="72dp"
+        android:src="@drawable/mainlogo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mainlogo" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/SignIn"
@@ -37,7 +36,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="116dp"
         android:backgroundTint="@color/PrimaryDark"
-        android:ems="14"
+        android:ems="17"
         android:inputType="textEmailAddress"
         android:hint="Email"
         android:textColor="@color/PrimaryDark"
@@ -52,7 +51,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:backgroundTint="@color/PrimaryDark"
-        android:ems="14"
+        android:ems="17"
         android:inputType="textPassword"
         android:hint="Password"
         android:textColor="@color/PrimaryDark"
