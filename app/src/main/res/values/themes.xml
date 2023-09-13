@@ -13,10 +13,9 @@
         <item name="android:textSize">24sp</item>
     </style>
 
-    <style name="nextButtonTheme" parent="Widget.AppCompat.Button.Borderless" > //what is parent
+    <style name="nextButtonTheme" parent="Widget.AppCompat.Button.Borderless" >
         <item name="android:fontFamily">@font/nunito_sans</item>
         <item name="android:textAlignment">center</item>
-        <item name="android:backgroundTint">@color/Primary</item>
         <item name="android:textColor">@color/BodyText</item>
         <item name="android:textSize">18sp</item>
         <item name="android:textAllCaps">false</item>

@@ -6,6 +6,7 @@ import android.widget.Button
 import androidx.activity.ComponentActivity
 import com.ash.ovulio.R
 import com.ash.ovulio.login.SignIn
+import com.ash.ovulio.login.SignUp
 
 class Onboard4 : ComponentActivity() {
 
@@ -14,7 +15,7 @@ class Onboard4 : ComponentActivity() {
         setContentView(R.layout.onboard4)
         val buttonClick = findViewById<Button>(R.id.nextButton)
         buttonClick.setOnClickListener {
-            val intent = Intent(this, SignIn::class.java)
+            val intent = Intent(this, SignUp::class.java)
             startActivity(intent)
         }
 

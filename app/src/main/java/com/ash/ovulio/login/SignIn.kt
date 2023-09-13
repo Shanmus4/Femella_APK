@@ -39,7 +39,7 @@ class SignIn : ComponentActivity() {
                 // show error message
 
                 errorMessage.visibility = View.VISIBLE
-                errorMessage.text = "Incorrect"
+                errorMessage.text = "Incorrect Password"
 
             }
         }

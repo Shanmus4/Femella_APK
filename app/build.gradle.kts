@@ -73,6 +73,7 @@ dependencies {
     implementation("androidx.core:core-splashscreen:1.0.0")
     implementation("androidx.constraintlayout:constraintlayout:2.2.0-alpha12")
     // To use constraintlayout in compose
-    implementation("androidx.constraintlayout:constraintlayout-compose:1.1.0-alpha12")
+    implementation("androidx.constraintlayout:constraintlayout-compose:1.1.0-alpha12" )
+    implementation ("androidx.appcompat:appcompat:1.1.0")
 
 }
