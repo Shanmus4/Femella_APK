@@ -33,16 +33,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".onboarding.Onboard1"
+            android:name=".onboarding.OnboardReprod"
             android:exported="false" />
         <activity
-            android:name=".onboarding.Onboard2"
+            android:name=".onboarding.OnboardReminder"
             android:exported="false" />
         <activity
-            android:name=".onboarding.Onboard3"
+            android:name=".onboarding.OnboardConception"
             android:exported="false" />
         <activity
-            android:name=".onboarding.Onboard4"
+            android:name=".onboarding.OnboardKnow"
             android:exported="false" />
 
         <meta-data

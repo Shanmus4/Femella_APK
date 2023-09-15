@@ -5,18 +5,18 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.activity.ComponentActivity
 import com.ash.ovulio.R
+import com.ash.ovulio.login.SignUp
 
-class Onboard1 : ComponentActivity() {
+class OnboardKnow : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.onboard1)
-        val buttonClick = findViewById<Button>(R.id.nextButton)
+        setContentView(R.layout.activity_onboardknow)
+        val buttonClick = findViewById<Button>(R.id.onboardknownext)
         buttonClick.setOnClickListener {
-            val intent = Intent(this, Onboard2::class.java)
+            val intent = Intent(this, SignUp::class.java)
             startActivity(intent)
         }
 
     }
-
 }

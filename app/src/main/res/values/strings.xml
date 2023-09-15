@@ -2,4 +2,10 @@
     <string name="app_name">Ovulio</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
     <string name="password_error">Incorrect Password! Please check again</string>
+    <string name="onboardReprod_Head">How familiar are you with your reproductive health?</string>
+    <string name="onboardReminder_Head">Receive cycle reminders!</string>
+    <string name="onboardConception_Head">Understand your chances of conception</string>
+    <string name="onboardConception_Body">It\'s crucial to schedule your sexual life around your cycle. View daily insights to find out your chances of getting pregnant.</string>
+    <string name="onboardKnow_Body">For Ovulio to assist you on this journey, it needs thorough knowledge about your body. Rest assured, your data will only be shared with Ovulio.</string>
+    <string name="onboardKnow_Head">Let us know you better, Adheera!</string>
 </resources>

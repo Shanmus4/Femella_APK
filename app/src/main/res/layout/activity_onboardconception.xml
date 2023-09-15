@@ -9,37 +9,50 @@
 
 
     <ImageView
-        android:id="@+id/onboard1image"
+        android:id="@+id/onboardconceptionimage"
         android:layout_width="303dp"
         android:layout_height="194dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="48dp"
-        android:src="@drawable/onboard1pic"
+        android:layout_marginTop="@dimen/marginTop"
+
+        android:src="@drawable/onboardconceptionpic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/Onboard1Title"
+        android:id="@+id/OnboardconceptionTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="How familiar are you with your reproductive health?"
+        android:text="@string/onboardConception_Head"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/onboard1image" />
+        app:layout_constraintTop_toBottomOf="@+id/onboardconceptionimage" />
+
+    <TextView
+        android:id="@+id/OnboardconceptionBody"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
+        android:text="@string/onboardConception_Body"
+        android:textSize="@dimen/Body"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onboardconceptionimage" />
 
     <include
-        android:id="@+id/Onboard1Next"
+        android:id="@+id/OnboardconceptionNext"
         layout="@layout/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="@dimen/marginBottom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

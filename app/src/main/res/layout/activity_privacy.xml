@@ -67,6 +67,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/privacyBody"
         android:textColor="@color/BodyText"
+        android:paddingLeft="@dimen/Body"
         />
 
 

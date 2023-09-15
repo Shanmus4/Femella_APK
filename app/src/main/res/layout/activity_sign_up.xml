@@ -11,7 +11,7 @@
         android:id="@+id/SignUpImage"
         android:layout_width="303dp"
         android:layout_height="194dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="@dimen/marginTop"
         android:src="@drawable/mainlogo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,7 +25,7 @@
         android:fontFamily="@font/libre_baskerville"
         android:text="Hi There"
         android:textColor="@color/HeadText"
-        android:textSize="32sp"
+        android:textSize="@dimen/H1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/SignUpImage" />
@@ -69,7 +69,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-
         >
 
     </Button>

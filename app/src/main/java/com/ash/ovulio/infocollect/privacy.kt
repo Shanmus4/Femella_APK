@@ -25,7 +25,7 @@ class privacy : ComponentActivity() {
             if (isChecked) {
                 mButton.isEnabled = true
                 mButton.setOnClickListener{
-                    Toast.makeText(this@privacy, "Hi ", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this@privacy, "This is the last page! Thank you for viewing", Toast.LENGTH_LONG).show();
                 }
             } else {
                 mButton.isEnabled = false

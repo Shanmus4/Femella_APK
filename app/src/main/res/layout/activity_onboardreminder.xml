@@ -9,36 +9,32 @@
 
 
     <ImageView
-        android:id="@+id/onboard2image"
+        android:id="@+id/onboardremindimage"
         android:layout_width="303dp"
         android:layout_height="194dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="48dp"
-        android:src="@drawable/onboard2pic"
+        android:layout_marginTop="@dimen/marginTop"
+        android:src="@drawable/onboardreminderspic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/Onboard2Title"
+        android:id="@+id/OnboardremindTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Receive cycle reminders!"
+        android:text="@string/onboardReminder_Head"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/onboard2image" />
+        app:layout_constraintTop_toBottomOf="@+id/onboardremindimage" />
 
     <include
-        android:id="@+id/Onboard2Next"
+        android:id="@+id/OnboardremindNext"
         layout="@layout/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="140dp"
-        android:layout_marginEnd="139dp"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="@dimen/marginBottom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

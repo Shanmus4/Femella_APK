@@ -9,13 +9,11 @@
 
 
     <ImageView
-        android:id="@+id/onboard4image"
+        android:id="@+id/onboardknowimage"
         android:layout_width="303dp"
         android:layout_height="194dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="48dp"
-        android:src="@drawable/onboard4pic"
+        android:layout_marginTop="@dimen/marginTop"
+        android:src="@drawable/onboardknowyoupic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,29 +23,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Let us know you better, Adheera!"
+        android:text="@string/onboardKnow_Head"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/onboard4image" />
+        app:layout_constraintTop_toBottomOf="@+id/onboardknowimage" />
 
     <TextView
         android:id="@+id/Onboard4Body"
         android:layout_width="196dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="98dp"
-        android:text="For Ovulio to assist you on this journey, it needs thorough knowledge about your body. Rest assured, your data will only be shared with Ovulio."
-        android:textSize="14sp"
+        android:text="@string/onboardKnow_Body"
+        android:textSize="@dimen/Body"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/onboard4image" />
+        app:layout_constraintTop_toBottomOf="@+id/onboardknowimage" />
 
     <Button
-        android:id="@+id/nextButton"
+        android:id="@+id/onboardknownext"
         android:layout_width="164dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="@dimen/marginBottom"
         android:background="@drawable/border_radius"
         android:stateListAnimator="@null"
         android:text="Let's Go"
