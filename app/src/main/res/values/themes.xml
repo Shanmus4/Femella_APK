@@ -44,4 +44,10 @@
         <item name="android:textSize">16sp</item>
     </style>
 
+    <style name="CustomCheckbox" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:colorControlNormal">#7a7a7a</item>
+        <item name="android:colorControlActivated">#3db5ea</item>
+        <item name="android:colorControlHighlight">#3db5ea</item>
+    </style>
+
 </resources>

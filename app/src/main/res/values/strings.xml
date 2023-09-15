@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Ovulio</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="password_error">Incorrect Password! Please check again</string>
 </resources>

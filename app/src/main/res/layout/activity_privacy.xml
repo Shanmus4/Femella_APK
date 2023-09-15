@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".infocollect.privacy"
+    android:theme="@style/SignInTheme">
+
+
+    <ImageView
+        android:id="@+id/privacyScreenImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:src="@drawable/privacyinfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/privacyHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Your body, Your data"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/privacyScreenImage" />
+
+    <TextView
+        android:id="@+id/privacyBody"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Ovulio is the only company that will ever have access to your health data, and you are always free to erase it."
+        android:textAlignment="center"
+        android:textColor="@color/BodyText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/privacyHead" />
+
+    <Button
+        android:id="@+id/privacyScreenButton"
+        android:layout_width="164dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/border_radius"
+        android:stateListAnimator="@null"
+        android:text="Get Started"
+        android:theme="@style/nextButtonTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+    </Button>
+
+    <CheckBox
+        android:id="@+id/privacyCheckBox1"
+        android:layout_width="313dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="116dp"
+        android:text="I agree to the Privacy Policy and Terms of Use"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/privacyBody"
+        android:textColor="@color/BodyText"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
